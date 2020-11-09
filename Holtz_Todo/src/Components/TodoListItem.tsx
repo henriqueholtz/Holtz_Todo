@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Todo } from '../Models/Todo';
 import { TodoContextType } from '../Contexts/TodoContextType';
-import { TodoContext } from './TodoContext';
+import { TodoContext } from '../Contexts/TodoContext';
 
 interface TodoListItemProps {
     todo : Todo
